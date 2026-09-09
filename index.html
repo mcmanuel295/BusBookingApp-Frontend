@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Booking - Find and Book Your Journey</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>BusBooking</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="pages/login.html" class="btn btn-primary btn-small">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Book Your Bus Journey</h1>
+            <p>Easy, Fast, and Secure Bus Booking</p>
+            <a href="pages/search.html" class="btn btn-primary">Start Booking</a>
+        </div>
+    </section>
+
+    <!-- Search Widget -->
+    <section class="search-widget">
+        <div class="container">
+            <h2>Search Buses</h2>
+            <form id="quickSearchForm" class="search-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fromCity">From</label>
+                        <input type="text" id="fromCity" placeholder="Departure City" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="toCity">To</label>
+                        <input type="text" id="toCity" placeholder="Destination City" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="travelDate">Travel Date</label>
+                        <input type="date" id="travelDate" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="passengers">Passengers</label>
+                        <select id="passengers" required>
+                            <option value="1">1 Passenger</option>
+                            <option value="2">2 Passengers</option>
+                            <option value="3">3 Passengers</option>
+                            <option value="4">4 Passengers</option>
+                            <option value="5">5+ Passengers</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Search Buses</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2>Why Choose Us?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Secure Booking</h3>
+                    <p>Your payments and data are protected with industry-standard encryption</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Best Prices</h3>
+                    <p>Competitive prices with multiple payment options available</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⏱️</div>
+                    <h3>Real-time Updates</h3>
+                    <p>Get instant notifications about your booking and bus status</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎫</div>
+                    <h3>Easy Cancellation</h3>
+                    <p>Cancel your booking anytime with hassle-free refund process</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Mobile Friendly</h3>
+                    <p>Book on the go with our fully responsive mobile interface</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Travel Insurance</h3>
+                    <p>Optional travel insurance for added peace of mind</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Search</h3>
+                    <p>Enter your route and travel date</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Select</h3>
+                    <p>Choose your preferred bus</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Book</h3>
+                    <p>Select seats and enter details</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Pay</h3>
+                    <p>Complete secure payment</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <h3>Confirm</h3>
+                    <p>Receive your ticket instantly</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">6</div>
+                    <h3>Travel</h3>
+                    <p>Enjoy your journey</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About Us</h4>
+                    <p>Your trusted platform for easy and secure bus bookings across the country.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Search Buses</a></li>
+                        <li><a href="#">My Bookings</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Cancellation Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: support@busbooking.com</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                    <p>Address: 123 Main St, City, Country</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 BusBooking. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/config.js"></script>
+</body>
+</html>
